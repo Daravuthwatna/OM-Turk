@@ -3,9 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index_responsive.css">
+  <link rel="stylesheet" href="Animation.css">
+
+  <link rel="stylesheet" href="bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+  <title>បុណ្យអុំទូក/Bon Om Turk</title>
 </head>
 <body>
-  <p>hello world</p>
+  <div class="scrolltop"><i class="fa-solid fa-chevron-up"></i></div>
+  <div class="container-fluid navbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-xl-12 menu">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid home-page">
+    <div class="row full-home">
+      <div class="col-lg-6 col-xl-6 left-home">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg-6 col-xl-6 right-home hidden">
+        <ul></ul>
+      </div>
+    </div>
+  </div>
+  <div class="stop"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="detail-menu col-lg-3 col-xl-3">
+        <div class="box">
+          <ul></ul>
+        </div>
+        <div class="title">ព័ត៌មានផ្សេងៗ</div>
+        <div class="container more-left-paragraph hidden">
+          <div class="row"></div>
+        </div>
+      </div>
+      <div class="detail-item-container col-lg-9 col-xl-9">
+        <div class="box-item hidden">
+          <div class="btn-next btn-slide"><i class="fa-solid fa-arrow-right-long"></i></div>
+          <div class="btn-back btn-slide"><i class="fa-solid fa-arrow-left-long"></i></div>
+        </div>
+        <div class="title">ព័ត៌មានលម្អិត</div>
+        <div class="container paragraph-container">
+          <div class="row box-paragraph"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="box-footer">
+        <ul class="menu-footer"></ul>
+      </div>
+      <div class="line"></div>
+      <div class="box-icon">
+        <ul class="icon-footer"></ul>
+      </div>
+    </div>
+  </div>
 </body>
+<script src="index.js"></script>
+<script src="Animation.js"></script>
 </html>
