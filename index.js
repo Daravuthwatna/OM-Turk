@@ -390,7 +390,7 @@ $(document).ready(function(){
       sub_footer.forEach((e1)=>{
         txt_sub_fotter += `
         <li>
-          <a href="#">${e1["menu-footer"]}</a>
+          <p>${e1["menu-footer"]}</p>
         </li>`
       })
       txt_footer += `
