@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="demo"></div>
+</body>
+<script>
+  GetImg()
+  function GetImg(){
+    var txt = ""
+    var imgList = "1.jpg 2.jpg 3.jpg 4.jpg 5.jpg"
+    var img = imgList.split(" ")
+    for(i in img){
+      txt += `
+      <li>
+        <img src="img/${img[i]}" alt="">
+      </li>`
+    }
+    document.querySelector("#demo").innerHTML = `<ul>${txt}</ul>`
+    console.log(txt)
+  }
+</script>
+</html>
